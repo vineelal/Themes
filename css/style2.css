@@ -1,0 +1,60 @@
+body{
+    background-image: url("../img/pink.jpg");
+    background-repeat:repeat-x;
+    font-family:Helvetica;
+}
+.main {
+    margin-left:400px;
+    margin-right:400px;
+}
+
+.options{
+    border-top:30px solid #CACACA;
+    border-right:10px solid #CACACA;
+    border-left:10px solid #CACACA;
+    border-bottom:15px solid #CACACA;
+    border-color:gray;
+    background-color:cornflowerblue;
+}
+
+.gamePlay{
+    background-color:bisque;
+}
+
+.startOrder{
+    background-color: thistle;
+}
+
+.loadGenerator{
+    background-color:pink;
+}
+
+.audioVideo{
+    background-color:thistle;
+}
+
+.apply{
+    background-color:grey;
+}
+
+.label{
+    margin-top:4px;
+    margin-bottom:10px;
+    margin-left:150px;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+}
+
+td {
+    padding-left:35px;
+    padding-right:35px;
+}
+
+
+
+
+
+

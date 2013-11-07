@@ -1,0 +1,65 @@
+.main {
+    margin-left:400px;
+    margin-right:400px;
+}
+
+body{
+    color:white;
+    background-image: url("../img/green.png");
+    background-repeat:repeat;
+    font-family:Courier;
+}
+
+.options{
+    border-top:30px solid;
+    border-right:10px solid;
+    border-left:10px solid;
+    border-bottom:15px solid;
+    border-color:darkgrey;
+    background-color:black;
+}
+
+.gamePlay{
+    background-color:blue;
+}
+
+.startOrder{
+    background-color: green;
+}
+
+.loadGenerator{
+    background-color:blue;
+}
+
+.audioVideo{
+    background-color:blue;
+}
+
+.apply{
+    background-color:darkgrey;
+}
+
+.label{
+    margin-top:4px;
+    margin-bottom:10px;
+    margin-left:150px;
+}
+
+li {
+    list-style-type: none;
+    float: left;
+}
+
+td {
+    padding-left:35px;
+    padding-right:35px;
+}
+
+
+
+
+
+
+
+
+
