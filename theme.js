@@ -3,16 +3,15 @@
  */
     function getTheme(){
     var selectedTheme = document.getElementById("themes").value;
-    console.log(selectedTheme);
-    var oldlink = document.getElementsByTagName("link").item(0);
+    var link = document.getElementsByTagName("link").item(0);
     switch(selectedTheme){
-        case "default":oldlink.setAttribute("href","css/default.css");
+        case "default":link.setAttribute("href","css/default.css");
             break;
-       case "theme1":oldlink.setAttribute("href","css/style1.css");
+       case "theme1":link.setAttribute("href","css/style1.css");
             break;
-       case "theme2":oldlink.setAttribute("href","css/style2.css");
+       case "theme2":link.setAttribute("href","css/style2.css");
             break;
-        case "theme3":oldlink.setAttribute("href","css/style3.css");
+        case "theme3":link.setAttribute("href","css/style3.css");
             break;
     }
 
