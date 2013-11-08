@@ -1,60 +1,114 @@
-body{
-    background-image: url("../img/pink.jpg");
-    background-repeat:repeat-x;
-    font-family:Helvetica;
-}
 .main {
-    margin-left:400px;
-    margin-right:400px;
+    margin-left: 100px;
+    margin-top: 50px;
+    width: 500px;
 }
 
-.options{
-    border-top:30px solid ;
-    border-right:10px solid ;
-    border-left:10px solid ;
-    border-bottom:15px solid ;
-    border-color:gray;
-    background-color:cornflowerblue;
+img {
+    height: 15px;
+    width: 15px;
+    margin-right: 60px;
 }
 
-.gamePlay{
-    background-color:bisque;
+.container {
+    border: 5px solid;
+    border-color: black;
+    width: 700px;
+    height: 600px;
+    margin-left: 300px;
+    margin-top: 70px;
+    background-color: #000000;
+    background-image: url("../img/pink.jpg");
 }
 
-.startOrder{
-    background-color: thistle;
+body {
+    color: white;
 }
 
-.loadGenerator{
-    background-color:pink;
+body {
+    font-family: "lucida console";
 }
 
-.audioVideo{
-    background-color:thistle;
+.options {
+    /*border:30px 10px 15px 10px;*/
+    border-top: 30px;
+    border-right: 10px;
+    border-left: 10px;
+    border-bottom: 15px;
+    border-color: darkgrey;
+    border-style: solid;
+    background-color: black;
 }
 
-.apply{
-    background-color:grey;
+.gamePlay, .startOrder, .loadGenerator, .audioVideo, .apply {
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
-.label{
-    margin-top:4px;
-    margin-bottom:10px;
-    margin-left:150px;
+.content {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.gamePlay {
+    background-color: cornflowerblue;
+}
+
+.startOrder {
+    background-color: darkseagreen;
+}
+
+.loadGenerator {
+    background-color: cornflowerblue;
+}
+
+.audioVideo {
+    background-color: cornflowerblue;
+}
+
+.apply {
+    background-color: lightgray;
+}
+
+.label {
+    margin-bottom: 10px;
 }
 
 li {
     list-style-type: none;
-    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
 }
 
 td {
-    padding-left:35px;
-    padding-right:35px;
+    padding-left: 35px;
+    padding-right: 35px;
 }
 
+.left, .right {
+    float: left;
+}
 
+h3, h4 {
+    text-align: center;
+}
 
+h4 {
+    margin-top: 10px;
+}
+
+ul {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.right-arrow{
+    margin-left:60px;
+    margin-right:0px;
+    float: right;
+}
 
 
 
