@@ -2,7 +2,7 @@
 <html>
 <head>
     <title></title>
-    <link rel="stylesheet" href="css/default.css" type="text/css">
+    <link rel="stylesheet" href="css/copy.css" type="text/css">
 </head>
 <body>
 <script src="theme.js"></script>
@@ -13,120 +13,192 @@ Select the theme
     <option value="theme2">Theme2</option>
     <option value="theme3">Theme3</option>
 </select>
-
 <div class="container">
     <div class="main">
-        <h3 class="label" style="margin-bottom:-30px;color:black;">OPTIONS</h3>
-        <div class="options">
+        <h3 class="label" style="margin-bottom:-30px;color:black">O P T I O N S</h3>
+        <div class="options" style="width:500px;">
             <div class="gamePlay">
                 <h4 class="label">Gameplay</h4>
             </div>
             <div class="label" style="height: 19px">
                 <div class="startOrder" style="height: 19px">
                     <div class="content">
-                        <div class="left">
+                        <ul>
+                            <li>
+                                <div class="left">
+                                    Start order
+                                </div>
+                                <div class="right">
+                                    <div class="arrow-left"></div>
+                                    <!--<span class="inner-text" style="text-align: center">Winners first</span>-->
+                                    <div class="inner-text">Winners first</div>
+                                    <div class="arrow-right"></div>
+                                </div>
+                            </li>
+                        </ul>
+
+                       <!-- <div class="left">
                             <ul>
                                 <li style="margin-left: 0px">Start order</li>
                             </ul>
                         </div>
                         <div class="right">
-                            <ul>
-                                <li style="margin-left: 60px"><img
-                                        src="img/left.jpg">Winners first<img
-                                        src="img/right.jpg" class="right-arrow"
-                                        style="margin-left:52px;">
-                                </li>
-                            </ul>
-                        </div>
+                                    <div class="arrow-left"></div>
+                                    <div class="inner-text">Winners first</div>
+                                    <div class="arrow-right"></div>
+                        </div>-->
                     </div>
                 </div>
             </div>
 
             <div class="content" style="height:150px;">
-                <div class="left" style="height:150px;">
-                    <ul>
-                        <li>1.Round start order</li>
-                        <li>Economy</li>
-                        <li>Wind</li>
-                        <li>Tracers</li>
-                        <li>Fast shot</li>
-                        <li>Comment delay</li>
-                        <li>"Pass turn" button</li>
-                    </ul>
-                </div>
-                <div class="right" style="height:150px;">
-                    <ul>
-                        <li><img src="img/left.jpg">Random<img src="img/right.jpg"
-                                                               class="right-arrow">
-                        </li>
-                        <li><img src="img/left.jpg">Rich<img src="img/right.jpg"
-                                                             class="right-arrow"></li>
-                        <li><img src="img/left.jpg">Off<img src="img/right.jpg"
-                                                            class="right-arrow"></li>
-                        <li><img src="img/left.jpg">Tank Color<img src="img/right.jpg"
-                                                                   class="right-arrow">
-                        </li>
-                        <li><img src="img/left.jpg">On<img src="img/right.jpg"
-                                                           class="right-arrow"></li>
-                        <li><img src="img/left.jpg">1.2 sec<img src="img/right.jpg"
-                                                                class="right-arrow">
-                        </li>
-                        <li><img src="img/left.jpg">On<img src="img/right.jpg"
-                                                           class="right-arrow"></li>
-                    </ul>
-                </div>
+                <ul>
+                    <li>
+                        <div class="left">
+                            1.Round start
+                        </div>
+                        <div class="right">
+                            <div class="arrow-left"></div>
+                            <div class="inner-text">Random</div>
+                            <div class="arrow-right"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            Economy
+                        </div>
+                        <div class="right">
+                            <div class="arrow-left"></div>
+                            <div class="inner-text">Rich</div>
+                            <div class="arrow-right"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            Wind
+                        </div>
+                        <div class="right">
+                            <div class="arrow-left"></div>
+                            <div class="inner-text">Off</div>
+                            <div class="arrow-right"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            Tracers
+                        </div>
+                        <div class="right">
+                            <div class="arrow-left"></div>
+                            <div class="inner-text">Tank Color</div>
+                            <div class="arrow-right"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            Fast shot
+                        </div>
+                        <div class="right">
+                            <div class="arrow-left"></div>
+                            <div class="inner-text">On</div>
+                            <div class="arrow-right"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            Comment delay
+                        </div>
+                        <div class="right">
+                            <div class="arrow-left"></div>
+                            <div class="inner-text">1.2 sec</div>
+                            <div class="arrow-right"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            "Pass turn" button
+                        </div>
+                        <div class="right">
+                            <div class="arrow-left"></div>
+                            <div class="inner-text">On</div>
+                            <div class="arrow-right"></div>
+                        </div>
+                    </li>
+                </ul>
             </div>
 
             <div class="loadGenerator">
                 <h4 class="label">Load generator</h4>
             </div>
             <div class="content" style="height:50px;">
-                <div class="left" style="height:50px;width:172px">
-                    <ul>
-                        <li>Land Complexity</li>
-                        <li>Land Smoothness</li>
-                    </ul>
-                </div>
-                <div class="right" style="height:50px;width: 273px">
-                    <ul>
-                        <li><img src="img/left.jpg">35 segment<img
-                                src="img/right.jpg" class="right-arrow"></li>
-                        <li><img src="img/left.jpg">Hilly<img
-                                src="img/right.jpg" class="right-arrow"></li>
-                    </ul>
-                </div>
+                <ul>
+                    <li>
+                        <div class="left">
+                            Land Complexity
+                        </div>
+                        <div class="right">
+                            <div class="arrow-left"></div>
+                            <div class="inner-text">35 segment</div>
+                            <div class="arrow-right"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            Land Smoothness
+                        </div>
+                        <div class="right">
+                            <div class="arrow-left"></div>
+                            <div class="inner-text">Hilly</div>
+                            <div class="arrow-right"></div>
+                        </div>
+                    </li>
+                </ul>
             </div>
+
             <div class="audioVideo">
                 <h4 class="label">Audio/Video</h4>
             </div>
             <div class="content" style="height:75px;">
-                <div class="left" style="height:75px;width:172px;">
-                    <ul>
-                        <li>Sound</li>
-                        <li>Fading screens</li>
-                        <li>Video Resolution</li>
-                    </ul>
-                </div>
-                <div class="right" style="height:75px;width: 273px;">
-                    <ul>
-                        <li><img src="img/left.jpg">On<img src="img/right.jpg"
-                                                           class="right-arrow">
-                        </li>
-                        <li><img src="img/left.jpg">On<img src="img/right.jpg"
-                                                           class="right-arrow">
-                        </li>
-                        <li><img src="img/left.jpg">640*480<img
-                                src="img/right.jpg" class="right-arrow"></li>
-                    </ul>
+
+                <ul>
+                    <li>
+                        <div class="left">
+                            Sound
+                        </div>
+                        <div class="right">
+                            <div class="arrow-left"></div>
+                            <div class="inner-text">On</div>
+                            <div class="arrow-right"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            Fading screens
+                        </div>
+                        <div class="right">
+                            <div class="arrow-left"></div>
+                            <div class="inner-text">On</div>
+                            <div class="arrow-right"></div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="left">
+                            Video Resolution
+                        </div>
+                        <div class="right">
+                            <div class="arrow-left"></div>
+                            <div class="inner-text">640*480</div>
+                            <div class="arrow-right"></div>
+                        </div>
+                    </li>
+                </ul>
                 </div>
             </div>
         </div>
 
-        <div class="apply" style="width:500px;margin-left:0px">
-            <h4 class="label" style="margin-left:30px;color:black">Press Enter to apply
+        <div class="apply" style="width:520px">
+            <h4 class="label" style="margin-left:30px;color:black;margin-top:0px">Press Enter to apply
                 settings,ESC to cancel</h4>
         </div>
-    </div>
 </div>
 </body>
 </html>
