@@ -29,6 +29,7 @@ img {
 body {
     color: white;
     font-family:terminus_ttfmedium;
+    line-height: 160%;
 }
 
 .options {
