@@ -1,0 +1,25 @@
+
+body {
+    font-family: 'VideoTerminalSc';
+}
+
+.container {
+    background-image: url("../img/bg.png");
+}
+
+.gamePlay {
+    background-color: blue;
+}
+
+.startOrder {
+    background-color: green;
+}
+
+.loadGenerator .headers{
+    background-color: blue;
+}
+
+.audioVideo .headers {
+    background-color: blue;
+}
+
