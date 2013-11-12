@@ -7,7 +7,7 @@ body {
     font-family:"Bitstream Vera Serif Bold";
 }
 
-.container {
+.customcontainer {
     background-image: url("../img/green.png");
 }
 
@@ -19,10 +19,10 @@ body {
     background-color: thistle;
 }
 
-.loadGenerator .headers{
+.loadGenerator {
     background-color: tan;
 }
 
-.audioVideo .headers{
+.audioVideo {
     background-color: tan;
 }

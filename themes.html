@@ -2,8 +2,12 @@
 <html>
 <head>
     <title></title>
-    <link rel="stylesheet" href="css/default.css" type="text/css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css" type="text/css">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap-responsive.css"
+          type="text/css">
     <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="css/default.css" type="text/css">
+</head>
 </head>
 <body>
 <script src="theme.js"></script>
@@ -14,179 +18,176 @@ Select the theme
     <option value="theme2">Theme2</option>
     <option value="theme3">Theme3</option>
 </select>
-<div class="container">
-    <div class="top">
-        <h3 class="headers" >O P T I O N S</h3>
-        <div class="main">
-            <div class="gamePlay">
-                <h4 class="headers">Gameplay</h4>
-            </div>
-            <div class="headers" >
+
+<div class="customcontainer">
+        <div class="container" style="width:65%;margin-top:50px;padding-top:75px">
+            <div class="options">O P T I O N S</div>
+            <div class="main">
+                <div class="gamePlay">
+                    <ul>
+                        <li>Gameplay</li>
+                    </ul>
+                </div>
                 <div class="startOrder">
-                    <div class="content">
-                        <ul>
-                            <li>
-                                <div class="left" style="font-weight: normal;">
-                                    Start order
-                                </div>
-                                <div class="right">
-                                    <div class="arrow-left"></div>
-                                    <div class="inner-text"><b>W</b>inners first</div>
-                                    <div class="arrow-right"></div>
-                                </div>
-                            </li>
-                        </ul>
+                    <div class="row-fluid">
+                        <div class="span6">
+                            Start order
+                        </div>
+                        <div class="span6">
+                            <div class="arrow-left"></div>
+                            <div class="inner-text">Winners first</div>
+                            <div class="arrow-right"></div>
+                        </div>
                     </div>
                 </div>
-            </div>
-
-            <div class="content" >
-                <ul>
-                    <li>
-                        <div class="left">
+                <div class="content">
+                    <div class="row-fluid">
+                        <div class="span6">
                             1.Round start order
                         </div>
-                        <div class="right">
+                        <div class="span6">
                             <div class="arrow-left"></div>
                             <div class="inner-text">Random</div>
                             <div class="arrow-right"></div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="left">
+                    </div>
+                    <div class="row-fluid">
+                        <div class="span6">
                             Economy
                         </div>
-                        <div class="right">
+                        <div class="span6">
                             <div class="arrow-left"></div>
                             <div class="inner-text">Rich</div>
                             <div class="arrow-right"></div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="left">
+                    </div>
+                    <div class="row-fluid">
+                        <div class="span6">
                             Wind
                         </div>
-                        <div class="right">
+                        <div class="span6">
                             <div class="arrow-left"></div>
                             <div class="inner-text">Off</div>
                             <div class="arrow-right"></div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="left">
+                    </div>
+                    <div class="row-fluid">
+                        <div class="span6">
                             Tracers
                         </div>
-                        <div class="right">
+                        <div class="span6">
                             <div class="arrow-left"></div>
                             <div class="inner-text">Tank Color</div>
                             <div class="arrow-right"></div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="left">
+                    </div>
+                    <div class="row-fluid">
+                        <div class="span6">
                             Fast shot
                         </div>
-                        <div class="right">
+                        <div class="span6">
                             <div class="arrow-left"></div>
                             <div class="inner-text">On</div>
                             <div class="arrow-right"></div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="left">
+                    </div>
+                    <div class="row-fluid">
+                        <div class="span6">
                             Comment delay
                         </div>
-                        <div class="right">
+                        <div class="span6">
                             <div class="arrow-left"></div>
                             <div class="inner-text">1.2 sec</div>
                             <div class="arrow-right"></div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="left">
+                    </div>
+                    <div class="row-fluid">
+                        <div class="span6">
                             "Pass turn" button
                         </div>
-                        <div class="right">
+                        <div class="span6">
                             <div class="arrow-left"></div>
                             <div class="inner-text">On</div>
                             <div class="arrow-right"></div>
                         </div>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="loadGenerator">
-                <h4 class="headers">Load generator</h4>
-            <div class="content">
-                <ul>
-                    <li>
-                        <div class="left">
+                    </div>
+                </div>
+                <div class="loadGenerator">
+                    <ul>
+                        <li>Load generator</li>
+                    </ul>
+                </div>
+                <div class="loadGenerator-content">
+                    <div class="row-fluid">
+                        <div class="span6">
                             Load Complexity
                         </div>
-                        <div class="right">
+                        <div class="span6">
                             <div class="arrow-left"></div>
                             <div class="inner-text">35 segment</div>
                             <div class="arrow-right"></div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="left">
+                    </div>
+                    <div class="row-fluid">
+                        <div class="span6">
                             Land Smoothness
                         </div>
-                        <div class="right">
+                        <div class="span6">
                             <div class="arrow-left"></div>
                             <div class="inner-text">Hilly</div>
                             <div class="arrow-right"></div>
                         </div>
-                    </li>
-                </ul>
-            </div>
-            </div>
+                    </div>
+                </div>
 
-            <div class="audioVideo">
-                <h4 class="headers">Audio/Video</h4>
-            <div class="content">
-                <ul>
-                    <li>
-                        <div class="left">
+
+                <div class="audioVideo">
+                    <ul>
+                        <li>Audio/Video</li>
+                    </ul>
+                </div>
+                <div class="audioVideo-content">
+
+                    <div class="row-fluid">
+                        <div class="span6">
                             Sound
                         </div>
-                        <div class="right">
+                        <div class="span6">
                             <div class="arrow-left"></div>
                             <div class="inner-text">On</div>
                             <div class="arrow-right"></div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="left">
-                            Fading screens
+                        <div class="row-fluid">
+                            <div class="span6">
+                                Fading screens
+                            </div>
+                            <div class="span6">
+                                <div class="arrow-left"></div>
+                                <div class="inner-text">On</div>
+                                <div class="arrow-right"></div>
+                            </div>
                         </div>
-                        <div class="right">
-                            <div class="arrow-left"></div>
-                            <div class="inner-text">On</div>
-                            <div class="arrow-right"></div>
+                        <div class="row-fluid">
+                            <div class="span6">
+                                Video Resolution
+                            </div>
+                            <div class="span6">
+                                <div class="arrow-left"></div>
+                                <div class="inner-text">640*480</div>
+                                <div class="arrow-right"></div>
+                            </div>
                         </div>
-                    </li>
-                    <li>
-                        <div class="left">
-                            Video Resolution
-                        </div>
-                        <div class="right">
-                            <div class="arrow-left"></div>
-                            <div class="inner-text">640*480</div>
-                            <div class="arrow-right"></div>
-                        </div>
-                    </li>
-                </ul>
+                    </div>
                 </div>
-                </div>
-            </div>
-        </div>
 
-        <div class="bottom">
-            <h4 class="headers">Press Enter to apply
-                settings,ESC to cancel</h4>
-        </div>
+
+            </div>
+            <div class="bottom">
+                <ul>
+                    <li>Press Enter to apply settings,ESC to cancel</li>
+                </ul>
+            </div>
+    </div>
 </div>
 </body>
 </html>

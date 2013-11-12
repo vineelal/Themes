@@ -3,7 +3,7 @@
  */
     function getTheme(){
     var selectedTheme = document.getElementById("themes").value;
-    var link = document.getElementsByTagName("link").item(0);
+    var link = document.getElementsByTagName("link").item(3);
     switch(selectedTheme){
         case "default":link.setAttribute("href","css/default.css");
             break;
@@ -14,5 +14,4 @@
         case "theme3":link.setAttribute("href","css/style3.css");
             break;
     }
-
 }

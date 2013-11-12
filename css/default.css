@@ -1,9 +1,10 @@
 
 body {
     font-family: 'VideoTerminalSc';
+    background-color: #000000;
 }
 
-.container {
+.customcontainer {
     background-image: url("../img/bg.png");
 }
 
@@ -15,11 +16,11 @@ body {
     background-color: green;
 }
 
-.loadGenerator .headers{
+.loadGenerator {
     background-color: blue;
 }
 
-.audioVideo .headers {
+.audioVideo  {
     background-color: blue;
 }
 

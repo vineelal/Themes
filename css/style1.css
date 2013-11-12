@@ -1,4 +1,4 @@
-.container {
+.customcontainer {
     background-image: url("../img/blue.jpg");
 }
 
@@ -14,11 +14,11 @@ body {
     background-color: darkseagreen;
 }
 
-.loadGenerator .headers{
+.loadGenerator {
     background-color: lightpink;
 }
 
-.audioVideo .headers{
+.audioVideo {
     background-color: lightpink;
 }
 
