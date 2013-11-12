@@ -1,3 +1,14 @@
+@media screen and (min-width: 300px) and (max-width: 750px) {
+    .startOrder{
+        height:auto;
+    }
+}
+
+@media screen and (min-width: 751px) and (max-width: 1200px) {
+    .startOrder{
+        height:20px;
+    }
+}
 
 body {
     color: white;
@@ -40,6 +51,9 @@ body {
 
 .startOrder{
     margin: 5px;
+    /*height: 20px;*/
+    /*padding-top:7px;*/
+    /*height:auto;*/
     padding-left: 30px;
     padding-right: 30px;
 }
@@ -84,6 +98,7 @@ li {
     margin-left: inherit;
     margin-right: inherit;
     margin-bottom:50px;
+    color: #000000;
 }
 
 
