@@ -6,7 +6,7 @@ body {
 
 .customcontainer {
     width:80%;
-    height:700px;
+    height: auto;
     margin-right: auto;
     margin-left: auto;
     margin-top: 50px;
