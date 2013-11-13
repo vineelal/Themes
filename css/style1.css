@@ -1,24 +1,25 @@
-.customcontainer {
+.wrapper {
     background-image: url("../img/blue.jpg");
 }
 
 body {
     font-family:'Terminus';
+    background-color: #000000;
 }
 
-.gamePlay {
+.header1 {
     background-color: lightpink;
 }
 
-.startOrder {
+.lead {
     background-color: darkseagreen;
 }
 
-.loadGenerator {
+.header2 {
     background-color: lightpink;
 }
 
-.audioVideo {
+.header3 {
     background-color: lightpink;
 }
 

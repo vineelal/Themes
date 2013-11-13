@@ -5,24 +5,25 @@
 }
 body {
     font-family:"Bitstream Vera Serif Bold";
+    background-color: #000000;
 }
 
-.customcontainer {
+.wrapper {
     background-image: url("../img/green.png");
 }
 
-.gamePlay {
+.header1 {
     background-color: tan;
 }
 
-.startOrder {
+.lead {
     background-color: thistle;
 }
 
-.loadGenerator {
+.header2 {
     background-color: tan;
 }
 
-.audioVideo {
+.header3 {
     background-color: tan;
 }

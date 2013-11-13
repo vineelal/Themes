@@ -1,11 +1,11 @@
-@media screen and (min-width: 300px) and (max-width: 750px) {
-    .startOrder{
+@media screen and (min-width: 300px) and (max-width: 950px) {
+    .lead {
         height:auto;
     }
 }
 
-@media screen and (min-width: 751px) and (max-width: 1200px) {
-    .startOrder{
+@media screen and (min-width: 951px) and (max-width: 1300px) {
+    .lead {
         height:20px;
     }
 }
@@ -15,7 +15,7 @@ body {
     font-size: 18px;
 }
 
-.customcontainer {
+.wrapper {
     width:80%;
     height: auto;
     margin-right: auto;
@@ -23,7 +23,7 @@ body {
     margin-top: 50px;
 }
 
-.options{
+.main-header {
     margin-bottom:-30px;
     color:black;
     font-weight:lighter;
@@ -40,25 +40,26 @@ body {
     background-color: black;
 }
 
-.gamePlay,  .loadGenerator, .audioVideo, .bottom {
+.header1,  .header2, .header3, .bottom {
     margin: 5px;
     text-align: center;
 }
 
-.gamePlay ul{
+.header1 ul{
     margin-left:0px;
 }
 
-.startOrder{
+.lead {
     margin: 5px;
     /*height: 20px;*/
     /*padding-top:7px;*/
     /*height:auto;*/
     padding-left: 30px;
     padding-right: 30px;
+    text-shadow:0px 3px #000000;
 }
 
-.content,.loadGenerator-content,.audioVideo-content {
+.header1-content,.header2-content,.header3-content {
     margin-left: 35px;
     margin-right: 35px;
 }
@@ -80,7 +81,7 @@ li {
     border-bottom: 5px solid transparent;
     border-left: 5px solid white;
     float: right;
-    margin-top: 3px;
+    margin-top: 7px;
 }
 
 .arrow-left {
@@ -90,16 +91,20 @@ li {
     border-bottom: 5px solid transparent;
     border-right:5px solid white;
     float: left;
-    margin-top: 3px;
+    margin-top: 7px;
 }
 
 .bottom {
     background-color: darkgrey;
-    margin-left: inherit;
+    margin-left: 0px;
     margin-right: inherit;
     margin-bottom:50px;
     color: #000000;
+    letter-spacing:1px;
 }
 
+.bottom ul{
+    margin-left:0px;
+}
 
 

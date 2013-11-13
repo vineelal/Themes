@@ -1,23 +1,24 @@
-.customcontainer {
+.wrapper {
     background-image: url("../img/pink.jpg");
 }
 
 body {
     font-family:'Ubuntu Mono';
+    background-color: #000000;
 }
 
-.gamePlay {
+.header1 {
     background-color: cornflowerblue;
 }
 
-.startOrder {
+.lead {
     background-color: darkseagreen;
 }
 
-.loadGenerator {
+.header2 {
     background-color: cornflowerblue;
 }
 
-.audioVideo {
+.header3 {
     background-color: cornflowerblue;
 }
