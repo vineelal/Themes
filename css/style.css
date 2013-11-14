@@ -96,7 +96,10 @@ li {
 
 .bottom {
     background-color: darkgrey;
-    margin:5px inherit 50px 0px;
+    margin-top:7px;
+    margin-right:inherit;
+    margin-bottom:50px;
+    margin-left:0px;
     color: #000000;
     outline:outset #ffffff thin;
 }
