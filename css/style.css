@@ -16,9 +16,10 @@ body {
 }
 
 .wrapper {
-    width:80%;
     margin-right: auto;
     margin-left: auto;
+    width:1105px;
+    height:701px;
     margin-top: 50px;
 }
 
@@ -40,7 +41,6 @@ body {
     outline:outset #ffffff thin;
     padding:5px;
 }
-
 
 .header1,  .header2, .header3, .bottom {
     text-align: center;

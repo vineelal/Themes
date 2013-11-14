@@ -1,11 +1,11 @@
 
 body {
-    font-family: 'VideoTerminalSc';
+    font-family: 'Antic Slab', serif;
     background-color: #000000;
 }
 
 .wrapper {
-    background-image: url("../img/bg.png");
+    background-image: url("../img/background.png");
 }
 
 .header1 {
