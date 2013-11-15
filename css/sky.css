@@ -6,14 +6,14 @@ body {
 }
 
 .wrapper {
-    background-image: url("http://www.desktopweekly.com/wp-content/uploads/wallpapers/Computer/Rainbow-In-Sky-Hd-Desktop-Wallpaper.jpg");
+    background-image: url("https://ssl.gstatic.com/ui/v1/icons/mail/themes/turf/bg3_1280x800.jpg");
 }
 
 .container{
     padding-top:70px;
 }
 
-.top {
+.main-content-container {
     border-color: darkgrey;
     background-color: #F0F0F0;
 }
@@ -23,21 +23,21 @@ body {
     margin-bottom:-30px;
 }
 
-.header-bar{
+.header {
     background-color:deepskyblue;
     color:black;
 }
 
 .selected {
-    background-color:lightpink;
+    background-color:lawngreen;
     text-shadow:none;
 }
 
-.bottom,.main-header{
+.footer,.main-header{
     color:black;
 }
 
-.bottom{
+.footer {
     background-color: darkgrey;
 }
 

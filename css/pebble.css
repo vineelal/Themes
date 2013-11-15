@@ -1,12 +1,12 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing:3px;
-    color:#000000;
-    background-color: #F0F0F0;
+    color:#F0F0F0;
+    background-color:black;
 }
 
 .wrapper {
-    background-image: url("http://www.wallpaper1080hd.com/Picture/allimg/c100911/12T1LY930060-53523.jpg");
+    background-image: url("https://ssl.gstatic.com/ui/v1/icons/mail/themes/pebbles/bg4_1280x800.jpg");
 }
 
 .container{
@@ -18,12 +18,12 @@ body {
     margin-bottom:-30px;
 }
 
-.top {
+.main-content-container {
     border-color: darkgrey;
-    background-color: #F0F0F0;
+    background-color: black;
 }
 
-.header-bar{
+.header {
     background-color:cornflowerblue;
 }
 
@@ -31,14 +31,18 @@ body {
     background-color: lightpink;
 }
 
-.bottom{
+.footer {
     background-color: darkgrey;
 }
 
 .arrow-right {
-    border-left: 5px solid black;
+    border-left: 5px solid white;
 }
 
 .arrow-left {
-    border-right:5px solid black;
+    border-right:5px solid white;
+}
+
+.main-header,.header{
+    color:black;
 }

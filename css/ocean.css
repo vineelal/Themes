@@ -1,12 +1,12 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
     letter-spacing:3px;
-    background-color: #F0F0F0;
+    background-color:#0B3064;
     color:black;
 }
 
 .wrapper {
-    background-image: url("http://wallboom.com/wp-content/uploads/2013/07/ocean-backgrounds.jpg");
+    background-image: url("https://ssl.gstatic.com/ui/v1/icons/mail/themes/phantasea/bg_afternoon_1280x800.jpg");
 }
 
 .main-header{
@@ -14,16 +14,16 @@ body {
     margin-bottom:-30px;
 }
 
-.top {
+.main-content-container {
     border-color: darkgrey;
     background-color: #F0F0F0;
 }
 
-.main-header,.header-bar,.bottom{
+.main-header,.header,.footer {
     color:#ffffff;
 }
 
-.header-bar {
+.header {
     background-color:deepskyblue;
 }
 
@@ -31,7 +31,7 @@ body {
     background-color:lightpink;
 }
 
-.bottom{
+.footer {
     background-color: darkgrey;
 }
 
