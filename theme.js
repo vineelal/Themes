@@ -7,11 +7,11 @@
     switch(selectedTheme){
         case "default":link.setAttribute("href","css/default.css");
             break;
-       case "theme1":link.setAttribute("href","css/style1.css");
+       case "theme1":link.setAttribute("href","css/pebble.css");
             break;
-       case "theme2":link.setAttribute("href","css/style2.css");
+       case "theme2":link.setAttribute("href","css/ocean.css");
             break;
-        case "theme3":link.setAttribute("href","css/style3.css");
+        case "theme3":link.setAttribute("href","css/sky.css");
             break;
     }
 }
