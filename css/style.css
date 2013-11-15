@@ -13,40 +13,30 @@
 body {
     color: white;
     font-size: 16px;
+    font-weight:bolder;
 }
 
 .wrapper {
     margin-right: auto;
     margin-left: auto;
-    width:1105px;
-    height:701px;
+    height:auto;
+    width:81%;
     margin-top: 50px;
 }
 
 .main-header {
-    margin-bottom:-30px;
-    color:black;
-    font-weight:lighter;
     text-align: center;
 }
 
-.main {
-    border-top: 30px;
-    border-right: 10px;
-    border-left: 10px;
-    border-bottom: 10px;
-    border-color: darkgrey;
-    border-style: solid;
-    background-color: black;
-    outline:outset #ffffff thin;
+.top {
     padding:5px;
 }
 
-.header1,  .header2, .header3, .bottom {
+.topbar,  .middlebar, .bottombar, .bottom {
     text-align: center;
 }
 
-.header1 ul{
+.topbar ul{
     margin-left:0px;
 }
 
@@ -57,9 +47,10 @@ body {
     font-size:inherit;
     padding-right:30px;
     border-color:green;
+    font-weight:bold;
 }
 
-.header1-content,.header2-content,.header3-content {
+.topbar-content,.middlebar-content,.bottombar-content {
     margin-right: 30px;
     text-indent:30px;
 }
@@ -94,18 +85,28 @@ li {
     margin-top: 7px;
 }
 
-.bottom {
-    background-color: darkgrey;
-    margin-top:7px;
-    margin-right:inherit;
-    margin-bottom:50px;
-    margin-left:0px;
-    color: #000000;
-    outline:outset #ffffff thin;
-}
-
 .bottom ul{
     margin-left:0px;
 }
 
+.container{
+    padding-top:70px;
+}
 
+.top {
+    border-top: 30px;
+    border-right: 10px;
+    border-left: 10px;
+    border-bottom: 10px;
+
+    border-style: solid;
+    outline:outset #ffffff thin;
+}
+
+.bottom {
+    margin-top:7px;
+    margin-right:inherit;
+    margin-bottom:50px;
+    margin-left:0px;
+    outline:outset #ffffff thin;
+}

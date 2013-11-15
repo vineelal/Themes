@@ -5311,7 +5311,7 @@ input[type="submit"].btn.btn-mini {
   filter: alpha(opacity=80);
 }
 
-.tooltip.main {
+.tooltip.top {
   padding: 5px 0;
   margin-top: -3px;
 }
@@ -5351,7 +5351,7 @@ input[type="submit"].btn.btn-mini {
   border-style: solid;
 }
 
-.tooltip.main .tooltip-arrow {
+.tooltip.top .tooltip-arrow {
   bottom: 0;
   left: 50%;
   margin-left: -5px;
@@ -5407,7 +5407,7 @@ input[type="submit"].btn.btn-mini {
           background-clip: padding-box;
 }
 
-.popover.main {
+.popover.top {
   margin-top: -10px;
 }
 
@@ -5463,7 +5463,7 @@ input[type="submit"].btn.btn-mini {
   content: "";
 }
 
-.popover.main .arrow {
+.popover.top .arrow {
   bottom: -11px;
   left: 50%;
   margin-left: -11px;
@@ -5472,7 +5472,7 @@ input[type="submit"].btn.btn-mini {
   border-bottom-width: 0;
 }
 
-.popover.main .arrow:after {
+.popover.top .arrow:after {
   bottom: 1px;
   margin-left: -10px;
   border-top-color: #ffffff;

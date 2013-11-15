@@ -1,24 +1,38 @@
-.wrapper {
-    background-image: url("../img/pink.jpg");
-}
-
 body {
-    font-family: 'Doppio One', sans-serif;
+    font-family: 'New Rocker', cursive;
     background-color: #000000;
+    color:#0f9591;
+    font-size:20px;
 }
 
-.header1 {
-    background-color: cornflowerblue;
+.wrapper {
+    background-image: url("http://lukeroberts.us/wp-content/uploads/2008/05/floral-pattern-wallpaper-black-1024x768.jpg");
+}
+
+.main-header{
+    margin-top:5px;
+    margin-bottom:-30px;
+}
+
+.top {
+    border-color: darkgrey;
+}
+
+.topbar,.middlebar,.bottombar,.bottom{
+    color:#ffffff;
+}
+
+.topbar,.middlebar,.bottombar {
+    background-color:#303030;
 }
 
 .selected {
-    background-color: darkseagreen;
+    background-color:#000000;
 }
 
-.header2 {
-    background-color: cornflowerblue;
+.bottom{
+    background-color: darkgrey;
+    padding-top:7px;
+    padding-bottom:1px;
 }
 
-.header3 {
-    background-color: cornflowerblue;
-}

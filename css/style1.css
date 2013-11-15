@@ -1,25 +1,39 @@
-.wrapper {
-    background-image: url("../img/blue.jpg");
-}
-
 body {
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Aguafina Script', cursive;
     background-color: #000000;
+    font-size:20px;
+    letter-spacing:3px;
 }
 
-.header1 {
-    background-color: lightpink;
+.wrapper {
+    background-image: url("http://www.hdwallpapersinn.com/wp-content/uploads/2013/04/sky-night-theme-from-here-this-has-a-static-wallpaper.jpg");
+}
+
+.container{
+    margin-top:40px;
+}
+
+.main-header{
+    margin-top:5px;
+    margin-bottom:-30px;
+}
+
+.top {
+    border-color: darkgrey;
+}
+
+
+.topbar,.middlebar,.bottombar {
+    background-color:#000000;
 }
 
 .selected {
-    background-color: darkseagreen;
+    background-color: #3366FF;
 }
 
-.header2 {
-    background-color: lightpink;
-}
-
-.header3 {
-    background-color: lightpink;
+.bottom{
+    background-color: darkgrey;
+    padding-top:7px;
+    padding-bottom:1px;
 }
 

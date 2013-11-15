@@ -4,11 +4,12 @@ body {
     background-color: #000000;
 }
 
+
 .wrapper {
-    background-image: url("../img/background.png");
+    background-image: url("../img/default-background.png");
 }
 
-.header1 {
+.topbar,.middlebar,.bottombar {
     background-color: darkblue;
 }
 
@@ -16,11 +17,19 @@ body {
     background-color: green;
 }
 
-.header2 {
-    background-color: darkblue;
+.main-header, .bottom{
+    color:#303030 ;
 }
 
-.header3 {
-    background-color: darkblue;
+.main-header{
+    margin-bottom:-30px;
 }
 
+.bottom{
+    background-color: darkgrey;
+}
+
+.top {
+   background-color:#000000;
+   border-color: darkgrey;
+}

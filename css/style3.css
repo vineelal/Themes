@@ -1,21 +1,44 @@
-
 body {
-    font-family: 'Orbitron', sans-serif;
+    font-family: 'Marck Script', cursive;
     background-color: #000000;
+    color:white;
+    font-size:22px;
 }
 
-.header1 {
-    background-color: tan;
+.wrapper {
+    background-image: url("http://www.windows-8-theme.org/Backgrounds/The-Sky/The-Sky-10.jpg");
+}
+
+.container{
+    padding-top:70px;
+}
+
+.top {
+    border-color: tan;
+}
+
+.main-header{
+    margin-top:5px;
+    margin-bottom:-30px;
+}
+
+.topbar,.middlebar,.bottombar {
+    background-color:lightgoldenrodyellow;
+    color:black;
 }
 
 .selected {
-    background-color: thistle;
+    background-color:#a9dba9;
+    text-shadow:none;
 }
 
-.header2 {
-    background-color: tan;
+.bottom,.main-header{
+    color:black;
 }
 
-.header3 {
+.bottom{
     background-color: tan;
+    padding-top:7px;
+    padding-bottom:1px;
 }
+
