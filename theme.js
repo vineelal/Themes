@@ -11,7 +11,7 @@
             break;
        case "theme2":link.setAttribute("href","css/ocean.css");
             break;
-        case "theme3":link.setAttribute("href","css/sky.css");
+        case "theme3":link.setAttribute("href","css/Turf.css");
             break;
     }
 }
